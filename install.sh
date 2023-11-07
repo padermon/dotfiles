@@ -10,3 +10,5 @@ ln -s $DOTFILES/.config/alacritty $HOME/.config/alacritty
 rm -rf $HOME/.config/fish
 ln -s $DOTFILES/.config/fish $HOME/.config/fish
 
+# tmux
+ln -s $DOTFILES/.config/tmux/.tmux.conf $HOME/.tmux.conf
